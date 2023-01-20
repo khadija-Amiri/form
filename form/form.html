@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+    <title>Document</title>
+</head>
+<style>
+  
+  form{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 4px solid pink;
+    border-radius: 20px;
+    background: linear-gradient( 100deg, lightblue 30%, rgba(0,0,0,0) 30%), url('6.jpg');
+  }
+  input, #Discript{
+
+    padding: 13px;
+    color: purple;
+    border:1px solid pink;
+    border-radius: 20px;
+    font-family:'Roboto';
+    margin-left: 4px;
+  }
+ label{
+    color:purple;
+    font-family: 'Roboto';
+   
+ }
+ button{
+  cursor: pointer;
+  font-family: 'Roboto';
+  padding: 10px;
+    color: purple;
+    border:1px solid pink;
+    border-radius: 10px;
+  
+ }
+  
+</style>
+<body>
+    <form action="" method="post">
+      <label  > <b> Title </b></label> 
+      <input type="text" name="title" placeholder="Enter Title">
+      <br>
+      <br>
+      <label ><b> Description</b></label>
+      <textarea name="description" id="Discript" cols="21" rows="7">
+        
+      </textarea>
+      
+      <br>
+      <br>
+      <button>Submit</button>
+    </form>
+</body>
+</html>
